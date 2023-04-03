@@ -59,6 +59,7 @@ a {
 .game {
   background: #000915;
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
   padding-top: 128px;
   padding-bottom: 128px;
@@ -108,5 +109,8 @@ a {
     font-size: 14px;
     line-height: 22px;
     text-align: center;
+  }
+  .game__box {
+    padding: 236px 234px 32px 16px;
   }
 }/*# sourceMappingURL=style.css.map */

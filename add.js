@@ -10,7 +10,7 @@
 
     // Задание 2
 
-// let c = 7;
+// const c = 7;
 
 // if (c > 0 && c < 10){
 //     console.log ('Верно');
@@ -20,16 +20,16 @@
 
 // Задание 3
 
-// let d = 754;
-// let e = 84;
+// const d = 754;
+// const e = 84;
 
 // d > 100 || e > 100 ? console.log ('Верно') : console.log ('Неверно');
 
 
 // Задание 4
 
-// let a = '2';
-// let b = '3';
+// const a = '2';
+// const b = '3';
 // alert(Number(a) + Number(b));
 
 
@@ -39,40 +39,24 @@
 
 // switch (monthNumber){
 //     case '1':
-//         alert('Зима');
-//         break;
 //     case '2':
+//     case '12':
 //         alert('Зима');
 //         break;
 //     case '3':
-//         alert('Весна');
-//         break;
 //     case '4':
-//         alert('Весна');
-//         break;
 //     case '5':
 //         alert('Весна');
-//     break;
+//         break;
 //     case '6':
-//         alert('Лето');
-//         break;
 //     case '7':
-//         alert('Лето');
-//         break;
 //     case '8':
 //         alert('Лето');
 //         break;
 //     case '9':
-//         alert('Осень');
-//         break;  
 //     case '10':
-//         alert('Осень');
-//         break;
 //     case '11':
 //         alert('Осень');
-//         break;
-//     case '12':
-//         alert('Зима');
 //         break;
 //     default:
 //         alert('Такого месяца не существует');
