@@ -1,3 +1,19 @@
+//  Практическое задание после текста
+
+// while (true){
+//     const message = prompt('Напишите свое сообщение', '');
+//     if (message === 'continue'){
+//         continue;
+//     }
+//     if (message === 'break'){
+//         break;
+//     }
+//     console.log(message);
+// }
+
+
+
+
 // Задание 1 
 
 // let a = 1;
