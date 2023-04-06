@@ -4,6 +4,13 @@
         padding-right: 16px;
     }
 
+    .text {
+        margin: 32px 0;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
     .top {
         height: 735px;
         display: flex;
@@ -14,18 +21,34 @@
             line-height: 39px;
             text-align: center;
         }
-        &__text {
-            margin: 32px 0;
-            font-size: 14px;
-            line-height: 22px;
-            text-align: center;
-        }
     }
 
 
     .game {
+        flex-direction: column;
+        align-items: center;
         &__box {
             padding: 236px 234px 32px 16px;
     }
-}
+    }
+
+    .season {
+        gap: 77px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 51px;
+        padding-bottom: 51px;
+        &__info {
+            align-items: center;
+        }
+        &__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 59px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+        }
+    }
 }
