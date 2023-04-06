@@ -12,10 +12,10 @@
 <body>
     <div class="top center">
         <h1 class="top__heading">Добро пожаловать на мой сайт!</h1>
-        <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span
+        <p class="top__text text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span
                 class="top__text top__text--bold">поехали</span> и <span
                 class="top__text top__text--bold">приступай</span></p>
-        <a href="#" class="top__link">Поехали!</a>
+        <button href="#" class="btn">Поехали!</button>
     </div>
     <div class="game center">
         <a href="#" class="game__box game__box--one">Игра 1</a>
@@ -23,7 +23,16 @@
         <a href="#" class="game__box game__box--three">Игра 3</a>
     </div>
 
-    <script src="hw5.js"></script>
+    <div class="season center">
+        <div class="season__info">
+            <h2 class="season__title">Времена года!</h2>
+            <p class="season__text text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+            <button class="season__btn btn" onclick="getSeason()">Играть!</button>
+        </div>
+        <div class="season__img"><img src="img/img1.svg" alt=""></div>
+    </div>
+
+    <script src="game1.js"></script>
 </body>
 
 </html>
