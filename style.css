@@ -128,6 +128,7 @@ a {
     font-size: 14px;
     line-height: 22px;
     text-align: center;
+    width: 343px;
   }
   .top {
     height: 735px;
@@ -158,12 +159,10 @@ a {
     align-items: center;
   }
   .season__title {
-    font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
+    font-size: 32px;
+  }
+  .season__img {
+    width: 344px;
   }
 }/*# sourceMappingURL=style.css.map */
