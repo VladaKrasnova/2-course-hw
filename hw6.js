@@ -69,4 +69,57 @@
 //     alert(`Число ${num} нет в массиве`)
 // }
 
+    // Задание 8
+
+// let str = 'abcdef';
+// let arr = str.split('');
+// let arrReverse = arr.reverse();
+// let arrJoin = arrReverse.join('');
+
+// console.log(arrJoin);
+
+
+    // Задание 9
+
+// let arr = [[1, 2, 3,],[4, 5, 6]];
+// let result = [].concat(...arr);
+
+// console.log(result);
+
+    // Задание 10
+
+// let array = [1, 4, 6, 3, 9, 5];
+
+// for (let i = 0; i < (array.length - 1); i++) {
+//     array[i] = array[i] + array[i + 1];
+// }
+
+// console.log(array);
+
+
+    // Задание 11
+
+// const num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// const result = num.map(function (item) {
+//   return item ** 2;
+// })
+
+// console.log(result);
+
+
+    // Задание 12
+
+// const getLength = arr => arr.map(str => str.length);
+
+// console.log(getLength(['один', 'два', 'три', 'четыре', 'пять']));
+// console.log(getLength(['слово', '', 'слог', 'длинное предложение', 'буква']));
+
+
+    // Задание 13
+
+const getNum = array => array.filter(item => item < 0);
+
+console.log(getNum([1, -3, 5, 6, -4, -9, -7, 2, -8]));
+
 
