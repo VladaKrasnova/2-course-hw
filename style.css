@@ -59,7 +59,7 @@ a {
   font-weight: 700;
 }
 
-.game {
+.cart {
   background: #000915;
   display: flex;
   flex-wrap: wrap;
@@ -67,7 +67,7 @@ a {
   padding-top: 128px;
   padding-bottom: 128px;
 }
-.game__box {
+.cart__box {
   border: 3px solid #000915;
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,20 +78,20 @@ a {
   line-height: 32px;
   color: #ffffff;
 }
-.game__box--one {
+.cart__box--one {
   background-image: url(img/game1.jpg);
 }
-.game__box--two {
+.cart__box--two {
   background-image: url(img/game2.jpg);
 }
-.game__box--three {
+.cart__box--three {
   background-image: url(img/game3.jpg);
 }
-.game__box:hover {
+.cart__box:hover {
   border: 3px solid #44d2ff;
 }
 
-.season {
+.game {
   background: #000915;
   display: flex;
   flex-wrap: wrap;
@@ -100,12 +100,12 @@ a {
   padding-bottom: 233px;
   justify-content: space-between;
 }
-.season__info {
+.game__info {
   display: flex;
   flex-direction: column;
   align-items: start;
 }
-.season__title {
+.game__title {
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -114,11 +114,11 @@ a {
   align-items: center;
   color: #FFFFFF;
 }
-.season__btn {
+.game__btn {
   border: 1px solid #9c0332;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -141,28 +141,31 @@ a {
     line-height: 39px;
     text-align: center;
   }
-  .game {
+  .cart {
     flex-direction: column;
     align-items: center;
   }
-  .game__box {
+  .cart__box {
     padding: 236px 234px 32px 16px;
   }
-  .season {
+  .game {
     gap: 77px;
     flex-direction: column;
     align-items: center;
     padding-top: 51px;
     padding-bottom: 51px;
   }
-  .season__info {
+  .game__info {
     align-items: center;
   }
-  .season__title {
+  .game__info--word {
+    order: -1;
+  }
+  .game__title {
     font-weight: 700;
     font-size: 32px;
   }
-  .season__img {
+  .game__img {
     width: 344px;
   }
 }/*# sourceMappingURL=style.css.map */
